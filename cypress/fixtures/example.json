@@ -1,0 +1,16 @@
+{
+  "logIn_success_message": "login success",
+  "logIn_error_message": "username or password is wrong",
+  "signUp_success_message": "sign-up success",
+  "empty_input_field_error_message": "Please fill out this field.",
+  "valid_credentials": {
+    "username": "admin",
+    "password": "admin123"
+  },
+  "invalid_credentials": {
+    "username": "admin",
+    "password": "admin1234"
+  },
+
+  "body": "Fixtures are a great way to mock data for responses to routes"
+}
