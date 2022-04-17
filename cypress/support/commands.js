@@ -54,6 +54,6 @@ Cypress.Commands.add("form_validator", (form_id) => {
   });
 });
 
-Cypress.Commands.add("clearSession", () => {
+Cypress.Commands.add("remove_session", () => {
   sessionStorage.clear();
 });

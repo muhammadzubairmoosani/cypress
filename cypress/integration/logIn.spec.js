@@ -49,7 +49,7 @@ describe("Login page unit test-cases", () => {
       );
 
       cy.matchUrl("/profile");
-      cy.clearSession();
+      cy.remove_session();
     });
   });
 });
